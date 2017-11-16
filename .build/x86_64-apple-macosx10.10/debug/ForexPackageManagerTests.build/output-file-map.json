@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManagerTests.build/master.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Tests/ForexPackageManagerTests/ForexPackageManagerTests.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManagerTests.build/ForexPackageManagerTests.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManagerTests.build/ForexPackageManagerTests.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManagerTests.build/ForexPackageManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManagerTests.build/ForexPackageManagerTests.swiftdeps"
+  }
+}

@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "flatMapLatest"]
+- ["7RxSwift14ObservableTypeP", "switchLatest"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&+"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Cancelable"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- !private "FlatMapLatest"
+- "Int"
+- !private "LockOwnerType"
+- !private "MapSwitchSink"
+- "Observable"
+- "ObservableConvertibleType"
+- "ObservableType"
+- !private "ObserverType"
+- !private "Producer"
+- "RecursiveLock"
+- !private "SerialDisposable"
+- !private "SingleAssignmentDisposable"
+- !private "Sink"
+- !private "StringLiteralType"
+- !private "Switch"
+- !private "SwitchIdentitySink"
+- "SwitchSink"
+- !private "SwitchSinkIter"
+- !private "SynchronizedOnType"
+- !private "rxAbstractMethod"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["7RxSwift10CancelableP", "disposable"]
+- !private ["7RxSwift10CancelableP", "dispose"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "setDisposable"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["7RxSwift10DisposableP", "Disposables"]
+- !private ["7RxSwift10DisposableP", "E"]
+- !private ["7RxSwift10DisposableP", "RecursiveLock"]
+- !private ["7RxSwift10DisposableP", "SerialDisposable"]
+- !private ["7RxSwift10DisposableP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift10DisposableP", "SwitchSinkIter"]
+- !private ["7RxSwift10DisposableP", "_hasLatest"]
+- !private ["7RxSwift10DisposableP", "_innerSubscription"]
+- !private ["7RxSwift10DisposableP", "_latest"]
+- !private ["7RxSwift10DisposableP", "_lock"]
+- !private ["7RxSwift10DisposableP", "_selector"]
+- !private ["7RxSwift10DisposableP", "_stopped"]
+- !private ["7RxSwift10DisposableP", "_subscriptions"]
+- !private ["7RxSwift10DisposableP", "disposable"]
+- !private ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "forwardOn"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "nextElementArrived"]
+- !private ["7RxSwift10DisposableP", "on"]
+- !private ["7RxSwift10DisposableP", "performMap"]
+- !private ["7RxSwift10DisposableP", "run"]
+- !private ["7RxSwift10DisposableP", "rxAbstractMethod"]
+- !private ["7RxSwift10DisposableP", "setDisposable"]
+- !private ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["7RxSwift11DisposeBaseC", "disposable"]
+- !private ["7RxSwift11DisposeBaseC", "dispose"]
+- !private ["7RxSwift11DisposeBaseC", "init"]
+- !private ["7RxSwift11DisposeBaseC", "setDisposable"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lock"]
+- !private ["s9EquatableP", "unlock"]
+- ["7RxSwift5EventO", "completed"]
+- ["7RxSwift5EventO", "error"]
+- ["7RxSwift5EventO", "next"]
+- ["7RxSwift16EventConvertibleP", "completed"]
+- ["7RxSwift16EventConvertibleP", "error"]
+- ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lock"]
+- !private ["s8HashableP", "unlock"]
+- !private ["7RxSwift4LockP", "E"]
+- !private ["7RxSwift4LockP", "_id"]
+- !private ["7RxSwift4LockP", "_lock"]
+- !private ["7RxSwift4LockP", "_parent"]
+- !private ["7RxSwift4LockP", "_self"]
+- !private ["7RxSwift4LockP", "_synchronized_on"]
+- !private ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "on"]
+- !private ["7RxSwift4LockP", "synchronizedOn"]
+- !private ["7RxSwift4LockP", "unlock"]
+- !private ["7RxSwift4LockP", ""]
+- !private ["7RxSwift13LockOwnerTypeP", "E"]
+- !private ["7RxSwift13LockOwnerTypeP", "_id"]
+- !private ["7RxSwift13LockOwnerTypeP", "_lock"]
+- !private ["7RxSwift13LockOwnerTypeP", "_parent"]
+- !private ["7RxSwift13LockOwnerTypeP", "_self"]
+- !private ["7RxSwift13LockOwnerTypeP", "_synchronized_on"]
+- !private ["7RxSwift13LockOwnerTypeP", "init"]
+- !private ["7RxSwift13LockOwnerTypeP", "lock"]
+- !private ["7RxSwift13LockOwnerTypeP", "on"]
+- !private ["7RxSwift13LockOwnerTypeP", "synchronizedOn"]
+- !private ["7RxSwift13LockOwnerTypeP", "unlock"]
+- !private ["7RxSwift13LockOwnerTypeP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lock"]
+- !private ["So16NSObjectProtocolP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- !private ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["7RxSwift10ObservableC", "Cancelable"]
+- ["7RxSwift10ObservableC", "Disposable"]
+- !private ["7RxSwift10ObservableC", "MapSwitchSink"]
+- ["7RxSwift10ObservableC", "Observable"]
+- !private ["7RxSwift10ObservableC", "ObserverType"]
+- ["7RxSwift10ObservableC", "S"]
+- ["7RxSwift10ObservableC", "Selector"]
+- ["7RxSwift10ObservableC", "SourceType"]
+- !private ["7RxSwift10ObservableC", "SwitchIdentitySink"]
+- !private ["7RxSwift10ObservableC", "_selector"]
+- !private ["7RxSwift10ObservableC", "_source"]
+- !private ["7RxSwift10ObservableC", "deinit"]
+- !private ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "run"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "FlatMapLatest"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "MapSwitchSink"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ObservableConvertibleType"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Switch"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "SwitchIdentitySink"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "_selector"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "_source"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "E"]
+- !private ["7RxSwift14ObservableTypeP", "FlatMapLatest"]
+- !private ["7RxSwift14ObservableTypeP", "MapSwitchSink"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "ObservableConvertibleType"]
+- !private ["7RxSwift14ObservableTypeP", "Switch"]
+- !private ["7RxSwift14ObservableTypeP", "SwitchIdentitySink"]
+- !private ["7RxSwift14ObservableTypeP", "_selector"]
+- !private ["7RxSwift14ObservableTypeP", "_source"]
+- !private ["7RxSwift14ObservableTypeP", "asObservable"]
+- ["7RxSwift14ObservableTypeP", "flatMapLatest"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- ["7RxSwift14ObservableTypeP", "switchLatest"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "Disposables"]
+- !private ["7RxSwift12ObserverTypeP", "E"]
+- !private ["7RxSwift12ObserverTypeP", "RecursiveLock"]
+- !private ["7RxSwift12ObserverTypeP", "SerialDisposable"]
+- !private ["7RxSwift12ObserverTypeP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift12ObserverTypeP", "SwitchSinkIter"]
+- !private ["7RxSwift12ObserverTypeP", "_hasLatest"]
+- !private ["7RxSwift12ObserverTypeP", "_id"]
+- !private ["7RxSwift12ObserverTypeP", "_innerSubscription"]
+- !private ["7RxSwift12ObserverTypeP", "_latest"]
+- !private ["7RxSwift12ObserverTypeP", "_lock"]
+- !private ["7RxSwift12ObserverTypeP", "_parent"]
+- !private ["7RxSwift12ObserverTypeP", "_selector"]
+- !private ["7RxSwift12ObserverTypeP", "_self"]
+- !private ["7RxSwift12ObserverTypeP", "_stopped"]
+- !private ["7RxSwift12ObserverTypeP", "_subscriptions"]
+- !private ["7RxSwift12ObserverTypeP", "_synchronized_on"]
+- !private ["7RxSwift12ObserverTypeP", "dispose"]
+- !private ["7RxSwift12ObserverTypeP", "forwardOn"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "lock"]
+- !private ["7RxSwift12ObserverTypeP", "nextElementArrived"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift12ObserverTypeP", "performMap"]
+- !private ["7RxSwift12ObserverTypeP", "run"]
+- !private ["7RxSwift12ObserverTypeP", "rxAbstractMethod"]
+- !private ["7RxSwift12ObserverTypeP", "synchronizedOn"]
+- !private ["7RxSwift12ObserverTypeP", "unlock"]
+- !private ["7RxSwift12ObserverTypeP", ""]
+- ["7RxSwift8ProducerC", "Cancelable"]
+- ["7RxSwift8ProducerC", "Disposable"]
+- !private ["7RxSwift8ProducerC", "MapSwitchSink"]
+- ["7RxSwift8ProducerC", "Observable"]
+- !private ["7RxSwift8ProducerC", "ObserverType"]
+- ["7RxSwift8ProducerC", "S"]
+- ["7RxSwift8ProducerC", "Selector"]
+- ["7RxSwift8ProducerC", "SourceType"]
+- !private ["7RxSwift8ProducerC", "SwitchIdentitySink"]
+- !private ["7RxSwift8ProducerC", "_selector"]
+- !private ["7RxSwift8ProducerC", "_source"]
+- !private ["7RxSwift8ProducerC", "init"]
+- !private ["7RxSwift8ProducerC", "run"]
+- !private ["7RxSwift8ProducerC", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
+- !private ["7RxSwift16SerialDisposableC", "deinit"]
+- !private ["7RxSwift16SerialDisposableC", "disposable"]
+- !private ["7RxSwift16SerialDisposableC", "init"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "deinit"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "dispose"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "init"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "setDisposable"]
+- ["7RxSwift4SinkC", "Cancelable"]
+- ["7RxSwift4SinkC", "Disposable"]
+- !private ["7RxSwift4SinkC", "Disposables"]
+- ["7RxSwift4SinkC", "E"]
+- ["7RxSwift4SinkC", "Event"]
+- !private ["7RxSwift4SinkC", "Int"]
+- ["7RxSwift4SinkC", "O"]
+- ["7RxSwift4SinkC", "Observable"]
+- !private ["7RxSwift4SinkC", "RecursiveLock"]
+- ["7RxSwift4SinkC", "S"]
+- ["7RxSwift4SinkC", "Selector"]
+- !private ["7RxSwift4SinkC", "SerialDisposable"]
+- !private ["7RxSwift4SinkC", "SingleAssignmentDisposable"]
+- ["7RxSwift4SinkC", "SourceType"]
+- !private ["7RxSwift4SinkC", "SwitchSinkIter"]
+- !private ["7RxSwift4SinkC", "_hasLatest"]
+- !private ["7RxSwift4SinkC", "_innerSubscription"]
+- !private ["7RxSwift4SinkC", "_latest"]
+- !private ["7RxSwift4SinkC", "_lock"]
+- !private ["7RxSwift4SinkC", "_selector"]
+- !private ["7RxSwift4SinkC", "_stopped"]
+- !private ["7RxSwift4SinkC", "_subscriptions"]
+- !private ["7RxSwift4SinkC", "dispose"]
+- !private ["7RxSwift4SinkC", "forwardOn"]
+- !private ["7RxSwift4SinkC", "init"]
+- !private ["7RxSwift4SinkC", "nextElementArrived"]
+- !private ["7RxSwift4SinkC", "on"]
+- !private ["7RxSwift4SinkC", "performMap"]
+- !private ["7RxSwift4SinkC", "run"]
+- !private ["7RxSwift4SinkC", "rxAbstractMethod"]
+- !private ["7RxSwift4SinkC", ""]
+- !private ["s12StaticStringV", "init"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "E"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "_id"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "_lock"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "_parent"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "_self"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "_synchronized_on"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "init"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "lock"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "on"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "synchronizedOn"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "unlock"]
+- !private ["7RxSwift18SynchronizedOnTypeP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- !private "7RxSwift11DisposeBaseC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "7RxSwift5EventO"
+- "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "7RxSwift4LockP"
+- !private "7RxSwift13LockOwnerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So9NSLockingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So15NSRecursiveLockC"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift8ProducerC"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift16SerialDisposableC"
+- !private "7RxSwift26SingleAssignmentDisposableC"
+- "7RxSwift4SinkC"
+- !private "s12StaticStringV"
+- !private "7RxSwift18SynchronizedOnTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f223eec9391a762ef652c7830ccf7e84"

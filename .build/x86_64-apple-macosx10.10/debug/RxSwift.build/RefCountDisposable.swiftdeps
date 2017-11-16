@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RefCountDisposable"
+- "RefCountInnerDisposable"
+provides-nominal:
+- "7RxSwift18RefCountDisposableC"
+- "7RxSwift23RefCountInnerDisposableC"
+provides-member:
+- ["7RxSwift18RefCountDisposableC", ""]
+- ["7RxSwift23RefCountInnerDisposableC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- !private "AtomicCompareAndSwap"
+- "AtomicInt"
+- "Bool"
+- "BooleanLiteralType"
+- "Cancelable"
+- "CastingPrecedence"
+- "Disposable"
+- !private "Disposables"
+- "DisposeBase"
+- "RefCountDisposable"
+- "RefCountInnerDisposable"
+- "SpinLock"
+- "StringLiteralType"
+- !private "decrementChecked"
+- !private "incrementChecked"
+- !private "rxFatalError"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "calculateLocked"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["7RxSwift10CancelableP", "Disposables"]
+- !private ["7RxSwift10CancelableP", "RefCountInnerDisposable"]
+- ["7RxSwift10CancelableP", "SpinLock"]
+- !private ["7RxSwift10CancelableP", "_count"]
+- !private ["7RxSwift10CancelableP", "_disposable"]
+- !private ["7RxSwift10CancelableP", "_lock"]
+- !private ["7RxSwift10CancelableP", "_primaryDisposed"]
+- !private ["7RxSwift10CancelableP", "decrementChecked"]
+- ["7RxSwift10CancelableP", "dispose"]
+- !private ["7RxSwift10CancelableP", "incrementChecked"]
+- ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "release"]
+- !private ["7RxSwift10CancelableP", "rxFatalError"]
+- ["7RxSwift10CancelableP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateLocked"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "calculateLocked"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["7RxSwift10DisposableP", "AtomicCompareAndSwap"]
+- !private ["7RxSwift10DisposableP", "Disposables"]
+- !private ["7RxSwift10DisposableP", "RefCountInnerDisposable"]
+- ["7RxSwift10DisposableP", "SpinLock"]
+- !private ["7RxSwift10DisposableP", "_count"]
+- !private ["7RxSwift10DisposableP", "_disposable"]
+- !private ["7RxSwift10DisposableP", "_isDisposed"]
+- !private ["7RxSwift10DisposableP", "_lock"]
+- !private ["7RxSwift10DisposableP", "_parent"]
+- !private ["7RxSwift10DisposableP", "_primaryDisposed"]
+- !private ["7RxSwift10DisposableP", "decrementChecked"]
+- ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "incrementChecked"]
+- !private ["7RxSwift10DisposableP", "init"]
+- ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "release"]
+- !private ["7RxSwift10DisposableP", "rxFatalError"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["7RxSwift11DisposeBaseC", "AtomicCompareAndSwap"]
+- ["7RxSwift11DisposeBaseC", "AtomicInt"]
+- ["7RxSwift11DisposeBaseC", "Bool"]
+- ["7RxSwift11DisposeBaseC", "Disposable"]
+- !private ["7RxSwift11DisposeBaseC", "Disposables"]
+- ["7RxSwift11DisposeBaseC", "RefCountDisposable"]
+- !private ["7RxSwift11DisposeBaseC", "RefCountInnerDisposable"]
+- ["7RxSwift11DisposeBaseC", "SpinLock"]
+- ["7RxSwift11DisposeBaseC", "_count"]
+- ["7RxSwift11DisposeBaseC", "_disposable"]
+- ["7RxSwift11DisposeBaseC", "_isDisposed"]
+- ["7RxSwift11DisposeBaseC", "_lock"]
+- ["7RxSwift11DisposeBaseC", "_parent"]
+- ["7RxSwift11DisposeBaseC", "_primaryDisposed"]
+- !private ["7RxSwift11DisposeBaseC", "decrementChecked"]
+- ["7RxSwift11DisposeBaseC", "dispose"]
+- !private ["7RxSwift11DisposeBaseC", "incrementChecked"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- ["7RxSwift11DisposeBaseC", "isDisposed"]
+- ["7RxSwift11DisposeBaseC", "release"]
+- ["7RxSwift11DisposeBaseC", "retain"]
+- !private ["7RxSwift11DisposeBaseC", "rxFatalError"]
+- ["7RxSwift11DisposeBaseC", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "calculateLocked"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lock"]
+- !private ["s9EquatableP", "unlock"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "calculateLocked"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lock"]
+- !private ["s8HashableP", "unlock"]
+- !private ["7RxSwift4LockP", "calculateLocked"]
+- ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So9NSLockingP", "calculateLocked"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "calculateLocked"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So16NSObjectProtocolP", "calculateLocked"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lock"]
+- !private ["So16NSObjectProtocolP", "unlock"]
+- !private ["So15NSRecursiveLockC", "calculateLocked"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "calculateLocked"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
+- ["7RxSwift18RefCountDisposableC", "Bool"]
+- ["7RxSwift18RefCountDisposableC", "Disposable"]
+- !private ["7RxSwift18RefCountDisposableC", "Disposables"]
+- !private ["7RxSwift18RefCountDisposableC", "RefCountInnerDisposable"]
+- ["7RxSwift18RefCountDisposableC", "SpinLock"]
+- !private ["7RxSwift18RefCountDisposableC", "_count"]
+- !private ["7RxSwift18RefCountDisposableC", "_disposable"]
+- !private ["7RxSwift18RefCountDisposableC", "_lock"]
+- !private ["7RxSwift18RefCountDisposableC", "_primaryDisposed"]
+- !private ["7RxSwift18RefCountDisposableC", "decrementChecked"]
+- ["7RxSwift18RefCountDisposableC", "deinit"]
+- ["7RxSwift18RefCountDisposableC", "dispose"]
+- !private ["7RxSwift18RefCountDisposableC", "incrementChecked"]
+- ["7RxSwift18RefCountDisposableC", "init"]
+- ["7RxSwift18RefCountDisposableC", "isDisposed"]
+- !private ["7RxSwift18RefCountDisposableC", "release"]
+- ["7RxSwift18RefCountDisposableC", "retain"]
+- !private ["7RxSwift18RefCountDisposableC", "rxFatalError"]
+- !private ["7RxSwift23RefCountInnerDisposableC", "AtomicCompareAndSwap"]
+- ["7RxSwift23RefCountInnerDisposableC", "AtomicInt"]
+- ["7RxSwift23RefCountInnerDisposableC", "RefCountDisposable"]
+- !private ["7RxSwift23RefCountInnerDisposableC", "_isDisposed"]
+- !private ["7RxSwift23RefCountInnerDisposableC", "_parent"]
+- ["7RxSwift23RefCountInnerDisposableC", "deinit"]
+- ["7RxSwift23RefCountInnerDisposableC", "dispose"]
+- ["7RxSwift23RefCountInnerDisposableC", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateLocked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift11DisposeBaseC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "7RxSwift4LockP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So9NSLockingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So15NSRecursiveLockC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxSwift18RefCountDisposableC"
+- "7RxSwift23RefCountInnerDisposableC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e29cbce25bf57f8015ee655e4ee742dc"

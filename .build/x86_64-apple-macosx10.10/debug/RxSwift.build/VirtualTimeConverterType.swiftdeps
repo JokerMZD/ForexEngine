@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VirtualTimeConverterType"
+- "VirtualTimeComparison"
+provides-nominal:
+- "7RxSwift24VirtualTimeConverterTypeP"
+- "7RxSwift21VirtualTimeComparisonO"
+provides-member:
+- ["7RxSwift24VirtualTimeConverterTypeP", ""]
+- ["7RxSwift21VirtualTimeComparisonO", ""]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThen"]
+- ["7RxSwift21VirtualTimeComparisonO", "greaterThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "equal"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "RxTime"
+- "RxTimeInterval"
+- "VirtualTimeComparison"
+- "VirtualTimeConverterType"
+depends-member:
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "equal"]
+- !private ["s28CustomDebugStringConvertibleP", "greaterThan"]
+- !private ["s28CustomDebugStringConvertibleP", "lessThan"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "equal"]
+- !private ["s17CustomReflectableP", "greaterThan"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "lessThan"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s9DecodableP", "equal"]
+- !private ["s9DecodableP", "greaterThan"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "lessThan"]
+- !private ["s9EncodableP", "equal"]
+- !private ["s9EncodableP", "greaterThan"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "lessThan"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "greaterThan"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "lessThan"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "equal"]
+- !private ["s23ExpressibleByNilLiteralP", "greaterThan"]
+- !private ["s23ExpressibleByNilLiteralP", "lessThan"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "greaterThan"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "lessThan"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["Sq", "equal"]
+- !private ["Sq", "greaterThan"]
+- !private ["Sq", "lessThan"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["7RxSwift21VirtualTimeComparisonO", "Bool"]
+- ["7RxSwift21VirtualTimeComparisonO", "__derived_enum_equals"]
+- ["7RxSwift21VirtualTimeComparisonO", "deinit"]
+- ["7RxSwift21VirtualTimeComparisonO", "equal"]
+- ["7RxSwift21VirtualTimeComparisonO", "greaterThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "hashValue"]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThen"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "RxTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "RxTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeComparison"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeIntervalUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "compareVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "offsetVirtualTime"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "equal"]
+- !private ["s21_ObjectiveCBridgeableP", "greaterThan"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "lessThan"]
+- !private ["s26_OptionalNilComparisonTypeV", "equal"]
+- !private ["s26_OptionalNilComparisonTypeV", "greaterThan"]
+- !private ["s26_OptionalNilComparisonTypeV", "lessThan"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s7NumericP"
+- !private "Sq"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "7RxSwift21VirtualTimeComparisonO"
+- "7RxSwift24VirtualTimeConverterTypeP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c5a14b01a59a921fa2718a6b3839fca4"

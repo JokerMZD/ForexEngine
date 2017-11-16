@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricalSchedulerTimeConverter"
+provides-nominal:
+- "7RxSwift32HistoricalSchedulerTimeConverterV"
+provides-member:
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- !private "Date"
+- "HistoricalSchedulerTimeConverter"
+- "RxTime"
+- "RxTimeInterval"
+- "VirtualTimeComparison"
+- "VirtualTimeConverterType"
+depends-member:
+- !private ["s10ComparableP", "addingTimeInterval"]
+- !private ["s10ComparableP", "compare"]
+- ["SC16ComparisonResultO", "orderedAscending"]
+- ["SC16ComparisonResultO", "orderedDescending"]
+- ["SC16ComparisonResultO", "orderedSame"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "compare"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s29CustomPlaygroundQuickLookableP", "compare"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "compare"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "compare"]
+- !private ["s9DecodableP", "addingTimeInterval"]
+- !private ["s9DecodableP", "compare"]
+- !private ["s9EncodableP", "addingTimeInterval"]
+- !private ["s9EncodableP", "compare"]
+- !private ["s9EquatableP", "addingTimeInterval"]
+- !private ["s9EquatableP", "compare"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "greaterThan"]
+- !private ["s9EquatableP", "lessThan"]
+- ["s9EquatableP", "orderedAscending"]
+- ["s9EquatableP", "orderedDescending"]
+- ["s9EquatableP", "orderedSame"]
+- !private ["s8HashableP", "addingTimeInterval"]
+- !private ["s8HashableP", "compare"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "greaterThan"]
+- !private ["s8HashableP", "lessThan"]
+- ["s8HashableP", "orderedAscending"]
+- ["s8HashableP", "orderedDescending"]
+- ["s8HashableP", "orderedSame"]
+- !private ["7RxSwift32HistoricalSchedulerTimeConverterV", "Date"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "RxTime"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "RxTimeInterval"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "VirtualTimeComparison"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "VirtualTimeIntervalUnit"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "VirtualTimeUnit"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "compareVirtualTime"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "convertFromVirtualTime"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "convertFromVirtualTimeInterval"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "convertToVirtualTime"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "convertToVirtualTimeInterval"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "deinit"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "init"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "offsetVirtualTime"]
+- ["s16RawRepresentableP", "orderedAscending"]
+- ["s16RawRepresentableP", "orderedDescending"]
+- ["s16RawRepresentableP", "orderedSame"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "compare"]
+- !private ["7RxSwift21VirtualTimeComparisonO", "equal"]
+- !private ["7RxSwift21VirtualTimeComparisonO", "greaterThan"]
+- !private ["7RxSwift21VirtualTimeComparisonO", "lessThan"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeIntervalUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "compareVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "offsetVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "compare"]
+depends-nominal:
+- !private "s10ComparableP"
+- "SC16ComparisonResultO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "7RxSwift32HistoricalSchedulerTimeConverterV"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7RxSwift21VirtualTimeComparisonO"
+- "7RxSwift24VirtualTimeConverterTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "de60c62f5df5cb76c42c3f472a2abf9f"

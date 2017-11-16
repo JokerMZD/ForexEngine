@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.build/master.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/checkouts/CSwiftV.git--5200353317424074241/Sources/CSwiftV.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.build/CSwiftV.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.build/CSwiftV.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.build/CSwiftV~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.build/CSwiftV.swiftdeps"
+  }
+}

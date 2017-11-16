@@ -1,0 +1,126 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So13DispatchQueueC", ""]
+- ["So13DispatchQueueC", "isMain"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "Bool"
+- "DispatchQueue"
+- "DispatchSpecificKey"
+depends-member:
+- ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "DispatchSpecificKey"]
+- !private ["s7CVarArgP", "getSpecific"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "setSpecific"]
+- !private ["s7CVarArgP", "token"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "DispatchSpecificKey"]
+- !private ["s28CustomDebugStringConvertibleP", "getSpecific"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "setSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "DispatchSpecificKey"]
+- !private ["s23CustomStringConvertibleP", "getSpecific"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "setSpecific"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- ["So14DispatchObjectC", "Bool"]
+- ["So14DispatchObjectC", "DispatchQueue"]
+- ["So14DispatchObjectC", "DispatchSpecificKey"]
+- !private ["So14DispatchObjectC", "getSpecific"]
+- ["So14DispatchObjectC", "isMain"]
+- ["So14DispatchObjectC", "main"]
+- ["So14DispatchObjectC", "setSpecific"]
+- ["So14DispatchObjectC", "token"]
+- ["So13DispatchQueueC", "Bool"]
+- ["So13DispatchQueueC", "DispatchQueue"]
+- ["So13DispatchQueueC", "DispatchSpecificKey"]
+- !private ["So13DispatchQueueC", "getSpecific"]
+- ["So13DispatchQueueC", "isMain"]
+- ["So13DispatchQueueC", "main"]
+- ["So13DispatchQueueC", "setSpecific"]
+- !private ["So13DispatchQueueC", "token"]
+- ["8Dispatch0A11SpecificKeyC", "init"]
+- ["s9EquatableP", "DispatchQueue"]
+- ["s9EquatableP", "DispatchSpecificKey"]
+- !private ["s9EquatableP", "getSpecific"]
+- ["s9EquatableP", "main"]
+- ["s9EquatableP", "setSpecific"]
+- !private ["s9EquatableP", "token"]
+- ["s8HashableP", "DispatchQueue"]
+- ["s8HashableP", "DispatchSpecificKey"]
+- !private ["s8HashableP", "getSpecific"]
+- ["s8HashableP", "main"]
+- ["s8HashableP", "setSpecific"]
+- !private ["s8HashableP", "token"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "DispatchSpecificKey"]
+- !private ["So8NSObjectC", "getSpecific"]
+- ["So8NSObjectC", "isMain"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "setSpecific"]
+- ["So8NSObjectC", "token"]
+- ["So16NSObjectProtocolP", "DispatchQueue"]
+- ["So16NSObjectProtocolP", "DispatchSpecificKey"]
+- !private ["So16NSObjectProtocolP", "getSpecific"]
+- ["So16NSObjectProtocolP", "main"]
+- ["So16NSObjectProtocolP", "setSpecific"]
+- !private ["So16NSObjectProtocolP", "token"]
+- ["So9OS_objectC", "Bool"]
+- ["So9OS_objectC", "DispatchQueue"]
+- ["So9OS_objectC", "DispatchSpecificKey"]
+- !private ["So9OS_objectC", "getSpecific"]
+- ["So9OS_objectC", "isMain"]
+- ["So9OS_objectC", "main"]
+- ["So9OS_objectC", "setSpecific"]
+- ["So9OS_objectC", "token"]
+- ["7RxSwift18ReactiveCompatibleP", "DispatchQueue"]
+- ["7RxSwift18ReactiveCompatibleP", "DispatchSpecificKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", "getSpecific"]
+- ["7RxSwift18ReactiveCompatibleP", "main"]
+- ["7RxSwift18ReactiveCompatibleP", "setSpecific"]
+- !private ["7RxSwift18ReactiveCompatibleP", "token"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSpecificKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSpecific"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setSpecific"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So14DispatchObjectC"
+- "So13DispatchQueueC"
+- "8Dispatch0A11SpecificKeyC"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So9OS_objectC"
+- "7RxSwift18ReactiveCompatibleP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "fc0abe30f4fcb47d567d1dfab7629ae1"

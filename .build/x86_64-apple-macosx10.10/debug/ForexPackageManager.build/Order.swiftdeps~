@@ -1,0 +1,548 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Currency"
+- "Side"
+- "Status"
+- "CurrencyPair"
+- "Order"
+provides-nominal:
+- "19ForexPackageManager8CurrencyO"
+- "19ForexPackageManager4SideO"
+- "19ForexPackageManager6StatusO"
+- "19ForexPackageManager12CurrencyPairC"
+- "19ForexPackageManager5OrderC"
+provides-member:
+- ["19ForexPackageManager8CurrencyO", ""]
+- ["19ForexPackageManager4SideO", ""]
+- ["19ForexPackageManager6StatusO", ""]
+- ["19ForexPackageManager12CurrencyPairC", ""]
+- ["19ForexPackageManager5OrderC", ""]
+provides-dynamic-lookup:
+- "description"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "<="
+- "=="
+- !private ">="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "Currency"
+- "CurrencyPair"
+- "Float"
+- "Int"
+- "NSObject"
+- "Order"
+- "Side"
+- "Status"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["s23BidirectionalCollectionP", "components"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Currency"]
+- !private ["s7CVarArgP", "CurrencyPair"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Order"]
+- !private ["s7CVarArgP", "Side"]
+- !private ["s7CVarArgP", "amount"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "currencyPair"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "idCounter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "price"]
+- !private ["s7CVarArgP", "side"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "components"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "components"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["19ForexPackageManager8CurrencyO", "EUR"]
+- ["19ForexPackageManager8CurrencyO", "RawValue"]
+- ["19ForexPackageManager8CurrencyO", "USD"]
+- ["19ForexPackageManager8CurrencyO", "deinit"]
+- ["19ForexPackageManager8CurrencyO", "hashValue"]
+- ["19ForexPackageManager8CurrencyO", "init"]
+- ["19ForexPackageManager8CurrencyO", "rawValue"]
+- ["19ForexPackageManager12CurrencyPairC", "Currency"]
+- ["19ForexPackageManager12CurrencyPairC", "deinit"]
+- ["19ForexPackageManager12CurrencyPairC", "first"]
+- ["19ForexPackageManager12CurrencyPairC", "init"]
+- ["19ForexPackageManager12CurrencyPairC", "second"]
+- !private ["s28CustomDebugStringConvertibleP", "Currency"]
+- !private ["s28CustomDebugStringConvertibleP", "CurrencyPair"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Order"]
+- !private ["s28CustomDebugStringConvertibleP", "Side"]
+- !private ["s28CustomDebugStringConvertibleP", "amount"]
+- !private ["s28CustomDebugStringConvertibleP", "closed"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "currencyPair"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "idCounter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "price"]
+- !private ["s28CustomDebugStringConvertibleP", "side"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "components"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "closed"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Currency"]
+- !private ["s23CustomStringConvertibleP", "CurrencyPair"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Order"]
+- !private ["s23CustomStringConvertibleP", "Side"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "amount"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "currencyPair"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "idCounter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "price"]
+- !private ["s23CustomStringConvertibleP", "side"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "closed"]
+- !private ["s9DecodableP", "components"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "closed"]
+- !private ["s9EncodableP", "components"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Currency"]
+- !private ["s9EquatableP", "CurrencyPair"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "Order"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "Side"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "amount"]
+- !private ["s9EquatableP", "buy"]
+- !private ["s9EquatableP", "closed"]
+- !private ["s9EquatableP", "components"]
+- !private ["s9EquatableP", "currencyPair"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "idCounter"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "open"]
+- !private ["s9EquatableP", "price"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "sell"]
+- !private ["s9EquatableP", "side"]
+- !private ["s9EquatableP", "status"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "closed"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Currency"]
+- !private ["s8HashableP", "CurrencyPair"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "Order"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "Side"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "amount"]
+- !private ["s8HashableP", "buy"]
+- !private ["s8HashableP", "closed"]
+- !private ["s8HashableP", "components"]
+- !private ["s8HashableP", "currencyPair"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "idCounter"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "open"]
+- !private ["s8HashableP", "price"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "sell"]
+- !private ["s8HashableP", "side"]
+- !private ["s8HashableP", "status"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["So8NSCodingP", "components"]
+- ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "components"]
+- ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "components"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Currency"]
+- ["So8NSObjectC", "CurrencyPair"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Order"]
+- ["So8NSObjectC", "Side"]
+- ["So8NSObjectC", "Status"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "amount"]
+- !private ["So8NSObjectC", "components"]
+- ["So8NSObjectC", "currencyPair"]
+- ["So8NSObjectC", "description"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "idCounter"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "matches"]
+- ["So8NSObjectC", "price"]
+- ["So8NSObjectC", "side"]
+- ["So8NSObjectC", "status"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Currency"]
+- !private ["So16NSObjectProtocolP", "CurrencyPair"]
+- !private ["So16NSObjectProtocolP", "Float"]
+- !private ["So16NSObjectProtocolP", "Order"]
+- !private ["So16NSObjectProtocolP", "Side"]
+- !private ["So16NSObjectProtocolP", "amount"]
+- !private ["So16NSObjectProtocolP", "components"]
+- !private ["So16NSObjectProtocolP", "currencyPair"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "idCounter"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "price"]
+- !private ["So16NSObjectProtocolP", "side"]
+- !private ["So16NSObjectProtocolP", "status"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "components"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "components"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s7NumericP", "init"]
+- !private ["Sq", "closed"]
+- ["19ForexPackageManager5OrderC", "Bool"]
+- !private ["19ForexPackageManager5OrderC", "Currency"]
+- ["19ForexPackageManager5OrderC", "CurrencyPair"]
+- ["19ForexPackageManager5OrderC", "Float"]
+- ["19ForexPackageManager5OrderC", "Int"]
+- ["19ForexPackageManager5OrderC", "Order"]
+- ["19ForexPackageManager5OrderC", "Side"]
+- ["19ForexPackageManager5OrderC", "Status"]
+- ["19ForexPackageManager5OrderC", "String"]
+- ["19ForexPackageManager5OrderC", "amount"]
+- ["19ForexPackageManager5OrderC", "currencyPair"]
+- ["19ForexPackageManager5OrderC", "deinit"]
+- ["19ForexPackageManager5OrderC", "description"]
+- ["19ForexPackageManager5OrderC", "id"]
+- ["19ForexPackageManager5OrderC", "idCounter"]
+- ["19ForexPackageManager5OrderC", "init"]
+- ["19ForexPackageManager5OrderC", "matches"]
+- ["19ForexPackageManager5OrderC", "price"]
+- ["19ForexPackageManager5OrderC", "side"]
+- ["19ForexPackageManager5OrderC", "status"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "components"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "buy"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "sell"]
+- ["s16RawRepresentableP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "Currency"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CurrencyPair"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Float"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Order"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Side"]
+- !private ["7RxSwift18ReactiveCompatibleP", "amount"]
+- !private ["7RxSwift18ReactiveCompatibleP", "components"]
+- !private ["7RxSwift18ReactiveCompatibleP", "currencyPair"]
+- !private ["7RxSwift18ReactiveCompatibleP", "id"]
+- !private ["7RxSwift18ReactiveCompatibleP", "idCounter"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "price"]
+- !private ["7RxSwift18ReactiveCompatibleP", "side"]
+- !private ["7RxSwift18ReactiveCompatibleP", "status"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["s8SequenceP", "components"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "subscript"]
+- ["19ForexPackageManager4SideO", "RawValue"]
+- ["19ForexPackageManager4SideO", "buy"]
+- ["19ForexPackageManager4SideO", "deinit"]
+- ["19ForexPackageManager4SideO", "hashValue"]
+- ["19ForexPackageManager4SideO", "init"]
+- ["19ForexPackageManager4SideO", "rawValue"]
+- ["19ForexPackageManager4SideO", "sell"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["19ForexPackageManager6StatusO", "__derived_enum_equals"]
+- ["19ForexPackageManager6StatusO", "closed"]
+- ["19ForexPackageManager6StatusO", "deinit"]
+- ["19ForexPackageManager6StatusO", "hashValue"]
+- ["19ForexPackageManager6StatusO", "open"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "components"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "components"]
+- ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "components"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "components"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s23_BidirectionalIndexableP", "components"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "last"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "components"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "components"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "components"]
+- !private ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "last"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "components"]
+- !private ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "last"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Currency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CurrencyPair"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Order"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Side"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "amount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyPair"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "idCounter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "side"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s17_MutableIndexableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "closed"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_OptionalNilComparisonTypeV", "closed"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s22_RandomAccessIndexableP", "last"]
+- !private ["s26_RangeReplaceableIndexableP", "components"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "last"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "components"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "19ForexPackageManager8CurrencyO"
+- "19ForexPackageManager12CurrencyPairC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "Sq"
+- "19ForexPackageManager5OrderC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "7RxSwift18ReactiveCompatibleP"
+- "s8SequenceP"
+- "19ForexPackageManager4SideO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "19ForexPackageManager6StatusO"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "261ec17718d26446a0149265257407b8"

@@ -1,0 +1,486 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FOREXtradingTests"
+provides-nominal:
+- "24ForexPackageManagerTests012FOREXtradingD0C"
+provides-member:
+- ["24ForexPackageManagerTests012FOREXtradingD0C", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testCSVLoadingAndEventProducing"
+- "testEngineDataSource"
+- "testEnginePlaced"
+- "testEngingeClosed"
+- "testOrderFail"
+- "testOrderSuccess"
+depends-top-level:
+- !private "&&"
+- !private "+="
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- "DisposeBag"
+- "FOREXtradingTests"
+- !private "ForexEngine"
+- "IForexEngine"
+- "IMockManager"
+- !private "MockManager"
+- !private "Order"
+- !private "StringLiteralType"
+- !private "XCTAssertFalse"
+- !private "XCTAssertNil"
+- !private "XCTAssertNotNil"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "ForexEngine"]
+- !private ["s7CVarArgP", "MockManager"]
+- !private ["s7CVarArgP", "Order"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertNil"]
+- !private ["s7CVarArgP", "XCTAssertNotNil"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "bag"]
+- !private ["s7CVarArgP", "engine"]
+- !private ["s7CVarArgP", "helper"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "idCounter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "processedOrder"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "tearDown"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "ForexEngine"]
+- !private ["s28CustomDebugStringConvertibleP", "MockManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Order"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNotNil"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "bag"]
+- !private ["s28CustomDebugStringConvertibleP", "element"]
+- !private ["s28CustomDebugStringConvertibleP", "engine"]
+- !private ["s28CustomDebugStringConvertibleP", "helper"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "idCounter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "processedOrder"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "ForexEngine"]
+- !private ["s23CustomStringConvertibleP", "MockManager"]
+- !private ["s23CustomStringConvertibleP", "Order"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNil"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNotNil"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bag"]
+- !private ["s23CustomStringConvertibleP", "engine"]
+- !private ["s23CustomStringConvertibleP", "helper"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "idCounter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "processedOrder"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "DisposeBag"]
+- !private ["s9EquatableP", "ForexEngine"]
+- !private ["s9EquatableP", "MockManager"]
+- !private ["s9EquatableP", "Order"]
+- !private ["s9EquatableP", "XCTAssertFalse"]
+- !private ["s9EquatableP", "XCTAssertNil"]
+- !private ["s9EquatableP", "XCTAssertNotNil"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bag"]
+- !private ["s9EquatableP", "engine"]
+- !private ["s9EquatableP", "helper"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "idCounter"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "processedOrder"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "tearDown"]
+- ["s9EquatableP", ""]
+- !private ["7RxSwift5EventO", "element"]
+- !private ["7RxSwift16EventConvertibleP", "element"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "DisposeBag"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "ForexEngine"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "IForexEngine"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "IMockManager"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "MockManager"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "Order"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "XCTAssertFalse"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "XCTAssertNil"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "XCTAssertNotNil"]
+- !private ["24ForexPackageManagerTests012FOREXtradingD0C", "XCTAssertTrue"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "bag"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "deinit"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "engine"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "helper"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "init"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "setUp"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "tearDown"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testCSVLoadingAndEventProducing"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testEngineDataSource"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testEnginePlaced"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testEngingeClosed"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testOrderFail"]
+- ["24ForexPackageManagerTests012FOREXtradingD0C", "testOrderSuccess"]
+- !private ["19ForexPackageManager0A6EngineC", "init"]
+- ["s8HashableP", "DisposeBag"]
+- !private ["s8HashableP", "ForexEngine"]
+- !private ["s8HashableP", "MockManager"]
+- !private ["s8HashableP", "Order"]
+- !private ["s8HashableP", "XCTAssertFalse"]
+- !private ["s8HashableP", "XCTAssertNil"]
+- !private ["s8HashableP", "XCTAssertNotNil"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bag"]
+- !private ["s8HashableP", "engine"]
+- !private ["s8HashableP", "helper"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "idCounter"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "processedOrder"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "tearDown"]
+- ["s8HashableP", ""]
+- !private ["19ForexPackageManager12IForexEngineP", "closedOrders"]
+- !private ["19ForexPackageManager12IForexEngineP", "init"]
+- !private ["19ForexPackageManager12IForexEngineP", "placedOrders"]
+- !private ["19ForexPackageManager12IForexEngineP", "subscribeToDataSourse"]
+- !private ["19ForexPackageManager05IMockC0P", "init"]
+- !private ["19ForexPackageManager05IMockC0P", "orders"]
+- !private ["19ForexPackageManager05IMockC0P", "processOrders"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["19ForexPackageManager04MockC0C", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "ForexEngine"]
+- ["So8NSObjectC", "IForexEngine"]
+- ["So8NSObjectC", "IMockManager"]
+- !private ["So8NSObjectC", "MockManager"]
+- !private ["So8NSObjectC", "Order"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertNil"]
+- !private ["So8NSObjectC", "XCTAssertNotNil"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "bag"]
+- ["So8NSObjectC", "engine"]
+- ["So8NSObjectC", "helper"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "idCounter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "processedOrder"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testCSVLoadingAndEventProducing"]
+- ["So8NSObjectC", "testEngineDataSource"]
+- ["So8NSObjectC", "testEnginePlaced"]
+- ["So8NSObjectC", "testEngingeClosed"]
+- ["So8NSObjectC", "testOrderFail"]
+- ["So8NSObjectC", "testOrderSuccess"]
+- ["So16NSObjectProtocolP", "DisposeBag"]
+- !private ["So16NSObjectProtocolP", "ForexEngine"]
+- !private ["So16NSObjectProtocolP", "MockManager"]
+- !private ["So16NSObjectProtocolP", "Order"]
+- !private ["So16NSObjectProtocolP", "XCTAssertFalse"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNil"]
+- !private ["So16NSObjectProtocolP", "XCTAssertNotNil"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- !private ["So16NSObjectProtocolP", "bag"]
+- !private ["So16NSObjectProtocolP", "engine"]
+- !private ["So16NSObjectProtocolP", "helper"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "idCounter"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "processedOrder"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["19ForexPackageManager5OrderC", "id"]
+- !private ["19ForexPackageManager5OrderC", "idCounter"]
+- !private ["19ForexPackageManager5OrderC", "init"]
+- !private ["19ForexPackageManager11OrderClosedC", "processedOrder"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ForexEngine"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MockManager"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Order"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertFalse"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertNil"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertNotNil"]
+- !private ["7RxSwift18ReactiveCompatibleP", "XCTAssertTrue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "bag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "engine"]
+- !private ["7RxSwift18ReactiveCompatibleP", "helper"]
+- !private ["7RxSwift18ReactiveCompatibleP", "id"]
+- !private ["7RxSwift18ReactiveCompatibleP", "idCounter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "processedOrder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setUp"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tearDown"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So11XCTActivityP", "DisposeBag"]
+- !private ["So11XCTActivityP", "ForexEngine"]
+- !private ["So11XCTActivityP", "MockManager"]
+- !private ["So11XCTActivityP", "Order"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertNil"]
+- !private ["So11XCTActivityP", "XCTAssertNotNil"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "bag"]
+- !private ["So11XCTActivityP", "engine"]
+- !private ["So11XCTActivityP", "helper"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "tearDown"]
+- ["So11XCTActivityP", ""]
+- ["So17XCTWaiterDelegateP", "DisposeBag"]
+- !private ["So17XCTWaiterDelegateP", "ForexEngine"]
+- !private ["So17XCTWaiterDelegateP", "MockManager"]
+- !private ["So17XCTWaiterDelegateP", "Order"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNotNil"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "bag"]
+- !private ["So17XCTWaiterDelegateP", "engine"]
+- !private ["So17XCTWaiterDelegateP", "helper"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "DisposeBag"]
+- !private ["So6XCTestC", "ForexEngine"]
+- ["So6XCTestC", "IForexEngine"]
+- ["So6XCTestC", "IMockManager"]
+- !private ["So6XCTestC", "MockManager"]
+- !private ["So6XCTestC", "Order"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertNil"]
+- !private ["So6XCTestC", "XCTAssertNotNil"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "bag"]
+- ["So6XCTestC", "engine"]
+- ["So6XCTestC", "helper"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testCSVLoadingAndEventProducing"]
+- ["So6XCTestC", "testEngineDataSource"]
+- ["So6XCTestC", "testEnginePlaced"]
+- ["So6XCTestC", "testEngingeClosed"]
+- ["So6XCTestC", "testOrderFail"]
+- ["So6XCTestC", "testOrderSuccess"]
+- ["So10XCTestCaseC", "DisposeBag"]
+- !private ["So10XCTestCaseC", "ForexEngine"]
+- ["So10XCTestCaseC", "IForexEngine"]
+- ["So10XCTestCaseC", "IMockManager"]
+- !private ["So10XCTestCaseC", "MockManager"]
+- !private ["So10XCTestCaseC", "Order"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertNil"]
+- !private ["So10XCTestCaseC", "XCTAssertNotNil"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", "bag"]
+- ["So10XCTestCaseC", "engine"]
+- ["So10XCTestCaseC", "helper"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testCSVLoadingAndEventProducing"]
+- ["So10XCTestCaseC", "testEngineDataSource"]
+- ["So10XCTestCaseC", "testEnginePlaced"]
+- ["So10XCTestCaseC", "testEngingeClosed"]
+- ["So10XCTestCaseC", "testOrderFail"]
+- ["So10XCTestCaseC", "testOrderSuccess"]
+- ["So10XCTestCaseC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ForexEngine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Order"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNotNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "engine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "helper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "idCounter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processedOrder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "24ForexPackageManagerTests012FOREXtradingD0C"
+- !private "19ForexPackageManager0A6EngineC"
+- "s8HashableP"
+- !private "19ForexPackageManager12IForexEngineP"
+- !private "19ForexPackageManager05IMockC0P"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "19ForexPackageManager04MockC0C"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "19ForexPackageManager5OrderC"
+- !private "19ForexPackageManager11OrderClosedC"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "875b7e3992c30ceb8f784fcbfa270edc"

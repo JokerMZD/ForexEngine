@@ -1,0 +1,67 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "never"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "Disposables"
+- !private "NeverProducer"
+- "Observable"
+- "ObservableType"
+- !private "ObserverType"
+- !private "Producer"
+depends-member:
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift10ObservableC", "Disposable"]
+- !private ["7RxSwift10ObservableC", "Disposables"]
+- !private ["7RxSwift10ObservableC", "Element"]
+- !private ["7RxSwift10ObservableC", "ObserverType"]
+- !private ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Disposables"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "NeverProducer"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "Disposables"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- !private ["7RxSwift14ObservableTypeP", "NeverProducer"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- ["7RxSwift14ObservableTypeP", "never"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift8ProducerC", "Disposable"]
+- !private ["7RxSwift8ProducerC", "Disposables"]
+- !private ["7RxSwift8ProducerC", "Element"]
+- !private ["7RxSwift8ProducerC", "ObserverType"]
+- !private ["7RxSwift8ProducerC", "init"]
+- !private ["7RxSwift8ProducerC", "subscribe"]
+- !private ["7RxSwift8ProducerC", ""]
+depends-nominal:
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift8ProducerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7a6c325a7e0481ba0146fd7b9ae3da12"

@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/master.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/AppContract/AppContract.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/AppContract.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/AppContract/AppContract.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/AppContract~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/AppContract.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Engine/ForexEngine.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/ForexEngine.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Engine/ForexEngine.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/ForexEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/ForexEngine.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Helpers/MockManager.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/MockManager.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Helpers/MockManager.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/MockManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/MockManager.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Events/OrderClosed.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderClosed.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Model/Events/OrderClosed.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderClosed~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderClosed.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Events/OrderPlaced.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderPlaced.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Model/Events/OrderPlaced.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderPlaced~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/OrderPlaced.swiftdeps"
+  },
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Order.swift": {
+    "dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Order.d",
+    "object": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Model/Order.swift.o",
+    "swiftmodule": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Order~partial.swiftmodule",
+    "swift-dependencies": "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/ForexPackageManager.build/Order.swiftdeps"
+  }
+}

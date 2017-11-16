@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "2f968cf05cc905fbce9d8a8c74ba2b54"
+build_time: [1510792170, 967477000]
+inputs:
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/AppContract/AppContract.swift": [1510783332, 0]
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Engine/ForexEngine.swift": [1510785837, 0]
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Helpers/MockManager.swift": [1510791649, 0]
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Events/OrderClosed.swift": [1510779738, 0]
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Events/OrderPlaced.swift": [1510779738, 0]
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Sources/ForexPackageManager/Model/Order.swift": [1510784186, 0]

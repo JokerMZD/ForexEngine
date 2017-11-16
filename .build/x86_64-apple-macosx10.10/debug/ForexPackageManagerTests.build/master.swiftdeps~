@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "0f207a8579ecb16ea0a3a45e17802eb2"
+build_time: [1510789690, 302716000]
+inputs:
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/Tests/ForexPackageManagerTests/ForexPackageManagerTests.swift": [1510789540, 0]

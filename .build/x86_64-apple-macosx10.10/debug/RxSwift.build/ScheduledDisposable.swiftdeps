@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScheduledDisposable"
+provides-nominal:
+- "7RxSwift19ScheduledDisposableC"
+provides-member:
+- ["7RxSwift19ScheduledDisposableC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "AtomicCompareAndSwap"
+- "AtomicInt"
+- "Bool"
+- "Cancelable"
+- "Disposable"
+- "Disposables"
+- "FloatLiteralType"
+- "ImmediateSchedulerType"
+- "IntegerLiteralType"
+- "ScheduledDisposable"
+- !private "disposeScheduledDisposable"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["7RxSwift10CancelableP", "AtomicCompareAndSwap"]
+- !private ["7RxSwift10CancelableP", "_disposable"]
+- !private ["7RxSwift10CancelableP", "_isDisposed"]
+- ["7RxSwift10CancelableP", "dispose"]
+- ["7RxSwift10CancelableP", "disposeInner"]
+- !private ["7RxSwift10CancelableP", "disposeScheduledDisposable"]
+- ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "scheduler"]
+- ["7RxSwift10CancelableP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["7RxSwift10DisposableP", "AtomicCompareAndSwap"]
+- !private ["7RxSwift10DisposableP", "_disposable"]
+- !private ["7RxSwift10DisposableP", "_isDisposed"]
+- ["7RxSwift10DisposableP", "dispose"]
+- ["7RxSwift10DisposableP", "disposeInner"]
+- !private ["7RxSwift10DisposableP", "disposeScheduledDisposable"]
+- ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "scheduler"]
+- ["7RxSwift10DisposableP", ""]
+- ["7RxSwift11DisposablesV", "create"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "schedule"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["7RxSwift19ScheduledDisposableC", "AtomicCompareAndSwap"]
+- ["7RxSwift19ScheduledDisposableC", "AtomicInt"]
+- ["7RxSwift19ScheduledDisposableC", "Bool"]
+- ["7RxSwift19ScheduledDisposableC", "Disposable"]
+- ["7RxSwift19ScheduledDisposableC", "ImmediateSchedulerType"]
+- !private ["7RxSwift19ScheduledDisposableC", "_disposable"]
+- !private ["7RxSwift19ScheduledDisposableC", "_isDisposed"]
+- ["7RxSwift19ScheduledDisposableC", "deinit"]
+- ["7RxSwift19ScheduledDisposableC", "dispose"]
+- ["7RxSwift19ScheduledDisposableC", "disposeInner"]
+- !private ["7RxSwift19ScheduledDisposableC", "disposeScheduledDisposable"]
+- ["7RxSwift19ScheduledDisposableC", "init"]
+- ["7RxSwift19ScheduledDisposableC", "isDisposed"]
+- ["7RxSwift19ScheduledDisposableC", "scheduler"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "7RxSwift10CancelableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "7RxSwift10DisposableP"
+- "7RxSwift11DisposablesV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- "7RxSwift19ScheduledDisposableC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d1bab8404bacc58b8aef8cf7725c22e3"

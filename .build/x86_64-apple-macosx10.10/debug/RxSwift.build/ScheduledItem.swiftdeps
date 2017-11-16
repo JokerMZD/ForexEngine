@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScheduledItem"
+provides-nominal:
+- "7RxSwift13ScheduledItemV"
+provides-member:
+- ["7RxSwift13ScheduledItemV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "Disposable"
+- "InvocableType"
+- "ScheduledItem"
+- "ScheduledItemType"
+- "SingleAssignmentDisposable"
+depends-member:
+- ["7RxSwift10CancelableP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift10CancelableP", "_action"]
+- !private ["7RxSwift10CancelableP", "_disposable"]
+- !private ["7RxSwift10CancelableP", "_state"]
+- ["7RxSwift10CancelableP", "dispose"]
+- ["7RxSwift10CancelableP", "init"]
+- ["7RxSwift10CancelableP", "invoke"]
+- ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "setDisposable"]
+- ["7RxSwift10CancelableP", ""]
+- ["7RxSwift10DisposableP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift10DisposableP", "_action"]
+- !private ["7RxSwift10DisposableP", "_disposable"]
+- !private ["7RxSwift10DisposableP", "_state"]
+- ["7RxSwift10DisposableP", "dispose"]
+- ["7RxSwift10DisposableP", "init"]
+- ["7RxSwift10DisposableP", "invoke"]
+- ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "setDisposable"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift11DisposeBaseC", "dispose"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["7RxSwift11DisposeBaseC", "isDisposed"]
+- !private ["7RxSwift11DisposeBaseC", "setDisposable"]
+- ["7RxSwift13InvocableTypeP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift13InvocableTypeP", "_action"]
+- !private ["7RxSwift13InvocableTypeP", "_disposable"]
+- !private ["7RxSwift13InvocableTypeP", "_state"]
+- ["7RxSwift13InvocableTypeP", "dispose"]
+- ["7RxSwift13InvocableTypeP", "invoke"]
+- ["7RxSwift13InvocableTypeP", "isDisposed"]
+- ["7RxSwift13InvocableTypeP", ""]
+- ["7RxSwift13ScheduledItemV", "Action"]
+- ["7RxSwift13ScheduledItemV", "Bool"]
+- ["7RxSwift13ScheduledItemV", "Disposable"]
+- ["7RxSwift13ScheduledItemV", "SingleAssignmentDisposable"]
+- ["7RxSwift13ScheduledItemV", "T"]
+- !private ["7RxSwift13ScheduledItemV", "_action"]
+- !private ["7RxSwift13ScheduledItemV", "_disposable"]
+- !private ["7RxSwift13ScheduledItemV", "_state"]
+- ["7RxSwift13ScheduledItemV", "deinit"]
+- ["7RxSwift13ScheduledItemV", "dispose"]
+- ["7RxSwift13ScheduledItemV", "init"]
+- ["7RxSwift13ScheduledItemV", "invoke"]
+- ["7RxSwift13ScheduledItemV", "isDisposed"]
+- ["7RxSwift17ScheduledItemTypeP", "SingleAssignmentDisposable"]
+- !private ["7RxSwift17ScheduledItemTypeP", "_action"]
+- !private ["7RxSwift17ScheduledItemTypeP", "_disposable"]
+- !private ["7RxSwift17ScheduledItemTypeP", "_state"]
+- ["7RxSwift17ScheduledItemTypeP", "dispose"]
+- ["7RxSwift17ScheduledItemTypeP", "invoke"]
+- ["7RxSwift17ScheduledItemTypeP", "isDisposed"]
+- ["7RxSwift17ScheduledItemTypeP", ""]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "deinit"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "dispose"]
+- ["7RxSwift26SingleAssignmentDisposableC", "init"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "setDisposable"]
+depends-nominal:
+- "7RxSwift10CancelableP"
+- "7RxSwift10DisposableP"
+- "7RxSwift11DisposeBaseC"
+- "7RxSwift13InvocableTypeP"
+- "7RxSwift13ScheduledItemV"
+- "7RxSwift17ScheduledItemTypeP"
+- "7RxSwift26SingleAssignmentDisposableC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0a4a0e41751c5ae3170f001174aa0eca"

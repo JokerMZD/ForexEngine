@@ -1,0 +1,55 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IForexEngine"
+- "IMockManager"
+provides-nominal:
+- "19ForexPackageManager12IForexEngineP"
+- "19ForexPackageManager05IMockC0P"
+provides-member:
+- ["19ForexPackageManager12IForexEngineP", ""]
+- ["19ForexPackageManager05IMockC0P", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "IForexEngine"
+- "IMockManager"
+- "Observable"
+- "Order"
+- "OrderClosed"
+- "OrderPlaced"
+depends-member:
+- ["19ForexPackageManager12IForexEngineP", "Bool"]
+- ["19ForexPackageManager12IForexEngineP", "Observable"]
+- ["19ForexPackageManager12IForexEngineP", "Order"]
+- ["19ForexPackageManager12IForexEngineP", "OrderClosed"]
+- ["19ForexPackageManager12IForexEngineP", "OrderPlaced"]
+- ["19ForexPackageManager12IForexEngineP", "closedOrders"]
+- ["19ForexPackageManager12IForexEngineP", "placedOrders"]
+- ["19ForexPackageManager12IForexEngineP", "subscribeToDataSourse"]
+- ["19ForexPackageManager05IMockC0P", "Observable"]
+- ["19ForexPackageManager05IMockC0P", "Order"]
+- ["19ForexPackageManager05IMockC0P", "orders"]
+- ["19ForexPackageManager05IMockC0P", "processOrders"]
+depends-nominal:
+- "19ForexPackageManager12IForexEngineP"
+- "19ForexPackageManager05IMockC0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/CSwiftV.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/x86_64-apple-macosx10.10/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "33130e6a91a334e50c67d30915febff9"

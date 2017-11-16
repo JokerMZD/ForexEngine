@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MaybeTrait"
+- "Maybe"
+- "MaybeEvent"
+provides-nominal:
+- "7RxSwift10MaybeTraitO"
+- "7RxSwift10MaybeEventO"
+provides-member:
+- ["7RxSwift10MaybeTraitO", ""]
+- ["7RxSwift10MaybeEventO", ""]
+- ["7RxSwift21PrimitiveSequenceTypeP", ""]
+- ["7RxSwift21PrimitiveSequenceTypeP", "MaybeObserver"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "create"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "just"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "just"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "error"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "never"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "empty"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "do"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "filter"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "map"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "flatMap"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Disposable"
+- "ImmediateSchedulerType"
+- "Maybe"
+- "MaybeEvent"
+- "MaybeTrait"
+- !private "Observable"
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+- "Swift"
+- "Void"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "deinit"]
+- !private ["7RxSwift11AnyObserverV", "on"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift5EventO", "error"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "error"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["7RxSwift10MaybeEventO", "Element"]
+- ["7RxSwift10MaybeEventO", "Swift"]
+- ["7RxSwift10MaybeEventO", "completed"]
+- ["7RxSwift10MaybeEventO", "error"]
+- ["7RxSwift10MaybeEventO", "success"]
+- !private ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "deinit"]
+- !private ["7RxSwift10ObservableC", "do"]
+- !private ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "error"]
+- !private ["7RxSwift10ObservableC", "filter"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "never"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "do"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "error"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "filter"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "never"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "source"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "create"]
+- !private ["7RxSwift14ObservableTypeP", "do"]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- !private ["7RxSwift14ObservableTypeP", "error"]
+- !private ["7RxSwift14ObservableTypeP", "filter"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "never"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift17PrimitiveSequenceV", "asObservable"]
+- !private ["7RxSwift17PrimitiveSequenceV", "deinit"]
+- !private ["7RxSwift17PrimitiveSequenceV", "init"]
+- !private ["7RxSwift17PrimitiveSequenceV", "source"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Bool"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Disposable"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "ElementType"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "ImmediateSchedulerType"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Maybe"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "MaybeEvent"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "MaybeObserver"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "MaybeTrait"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "Observable"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "PrimitiveSequence"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Swift"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "TraitType"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "Void"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "create"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "do"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "empty"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "error"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "filter"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "flatMap"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "init"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "just"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "map"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "never"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "primitiveSequence"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "source"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- !private "Sb"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "7RxSwift10MaybeEventO"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- "7RxSwift21PrimitiveSequenceTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c234b57dda792dfdf1a1210ba4eafdd3"

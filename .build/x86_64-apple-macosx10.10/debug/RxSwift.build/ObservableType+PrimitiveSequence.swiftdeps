@@ -1,0 +1,71 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asSingle"]
+- ["7RxSwift14ObservableTypeP", "asMaybe"]
+- ["7RxSwift14ObservableTypeP", "asCompletable"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AsMaybe"
+- !private "AsSingle"
+- "Completable"
+- "Maybe"
+- "Never"
+- "ObservableType"
+- !private "PrimitiveSequence"
+- "Single"
+depends-member:
+- !private ["7RxSwift7AsMaybeC", "init"]
+- !private ["7RxSwift8AsSingleC", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "AsMaybe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "AsSingle"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Completable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Maybe"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Never"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "PrimitiveSequence"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Single"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "AsMaybe"]
+- !private ["7RxSwift14ObservableTypeP", "AsSingle"]
+- ["7RxSwift14ObservableTypeP", "Completable"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "Maybe"]
+- ["7RxSwift14ObservableTypeP", "Never"]
+- !private ["7RxSwift14ObservableTypeP", "PrimitiveSequence"]
+- ["7RxSwift14ObservableTypeP", "Single"]
+- ["7RxSwift14ObservableTypeP", "asCompletable"]
+- ["7RxSwift14ObservableTypeP", "asMaybe"]
+- !private ["7RxSwift14ObservableTypeP", "asObservable"]
+- ["7RxSwift14ObservableTypeP", "asSingle"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift17PrimitiveSequenceV", "init"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "init"]
+depends-nominal:
+- !private "7RxSwift7AsMaybeC"
+- !private "7RxSwift8AsSingleC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "001d594161c44b7566212633c0b9ee19"

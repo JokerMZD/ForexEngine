@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "dedc8f8fa554fb43e10e2649d050fbda"
+build_time: [1510787286, 222440000]
+inputs:
+  "/Users/igorpovzyk/Desktop/ForexPackageManager/.build/checkouts/CSwiftV.git--5200353317424074241/Sources/CSwiftV.swift": [1510787284, 0]

@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Variable"
+provides-nominal:
+- "7RxSwift8VariableC"
+provides-member:
+- ["7RxSwift10ObservableC", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift10DisposableP", ""]
+- ["7RxSwift8VariableC", ""]
+- ["7RxSwift10ObservableC", "from"]
+- ["7RxSwift10ObservableC", "from"]
+- ["7RxSwift14ObservableTypeP", "mapWithIndex"]
+- ["7RxSwift14ObservableTypeP", "flatMapWithIndex"]
+- ["7RxSwift14ObservableTypeP", "skipWhileWithIndex"]
+- ["7RxSwift14ObservableTypeP", "takeWhileWithIndex"]
+- ["7RxSwift10DisposableP", "addDisposableTo"]
+- ["7RxSwift14ObservableTypeP", "shareReplayLatestWhileConnected"]
+- ["7RxSwift14ObservableTypeP", "shareReplay"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BehaviorSubject"
+- "Bool"
+- "Disposable"
+- "DisposeBag"
+- "ImmediateSchedulerType"
+- "Int"
+- "Observable"
+- "ObservableConvertibleType"
+- "ObservableType"
+- "SpinLock"
+- "Variable"
+depends-member:
+- !private ["7RxSwift15BehaviorSubjectC", "deinit"]
+- !private ["7RxSwift15BehaviorSubjectC", "init"]
+- !private ["7RxSwift15BehaviorSubjectC", "on"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- ["7RxSwift10DisposableP", "DisposeBag"]
+- ["7RxSwift10DisposableP", "addDisposableTo"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "on"]
+- !private ["s9EquatableP", "forever"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lock"]
+- !private ["s9EquatableP", "unlock"]
+- !private ["s9EquatableP", "whileConnected"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s8HashableP", "forever"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lock"]
+- !private ["s8HashableP", "unlock"]
+- !private ["s8HashableP", "whileConnected"]
+- ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lock"]
+- !private ["So16NSObjectProtocolP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["7RxSwift10ObservableC", "E"]
+- ["7RxSwift10ObservableC", "ImmediateSchedulerType"]
+- ["7RxSwift10ObservableC", "Observable"]
+- !private ["7RxSwift10ObservableC", "deinit"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- ["7RxSwift10ObservableC", "from"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "on"]
+- !private ["7RxSwift10ObservableC", "skipWhile"]
+- !private ["7RxSwift10ObservableC", "takeWhile"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Bool"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Int"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ObservableConvertibleType"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "enumerated"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "from"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "on"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "share"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "skipWhile"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "takeWhile"]
+- ["7RxSwift14ObservableTypeP", "Bool"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "Int"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "ObservableConvertibleType"]
+- !private ["7RxSwift14ObservableTypeP", "enumerated"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- ["7RxSwift14ObservableTypeP", "flatMapWithIndex"]
+- !private ["7RxSwift14ObservableTypeP", "from"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "mapWithIndex"]
+- !private ["7RxSwift14ObservableTypeP", "on"]
+- !private ["7RxSwift14ObservableTypeP", "share"]
+- ["7RxSwift14ObservableTypeP", "shareReplay"]
+- ["7RxSwift14ObservableTypeP", "shareReplayLatestWhileConnected"]
+- !private ["7RxSwift14ObservableTypeP", "skipWhile"]
+- ["7RxSwift14ObservableTypeP", "skipWhileWithIndex"]
+- !private ["7RxSwift14ObservableTypeP", "takeWhile"]
+- ["7RxSwift14ObservableTypeP", "takeWhileWithIndex"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
+- !private ["7RxSwift20SubjectLifetimeScopeO", "forever"]
+- !private ["7RxSwift20SubjectLifetimeScopeO", "whileConnected"]
+- !private ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift11SubjectTypeP", "on"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "on"]
+- ["7RxSwift8VariableC", "BehaviorSubject"]
+- ["7RxSwift8VariableC", "E"]
+- ["7RxSwift8VariableC", "Element"]
+- ["7RxSwift8VariableC", "Observable"]
+- ["7RxSwift8VariableC", "SpinLock"]
+- !private ["7RxSwift8VariableC", "_lock"]
+- !private ["7RxSwift8VariableC", "_subject"]
+- !private ["7RxSwift8VariableC", "_value"]
+- ["7RxSwift8VariableC", "asObservable"]
+- ["7RxSwift8VariableC", "deinit"]
+- ["7RxSwift8VariableC", "init"]
+- ["7RxSwift8VariableC", "value"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+depends-nominal:
+- !private "7RxSwift15BehaviorSubjectC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- "s9EquatableP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- "s8HashableP"
+- "7RxSwift4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So15NSRecursiveLockC"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift20SubjectLifetimeScopeO"
+- !private "7RxSwift11SubjectTypeP"
+- !private "7RxSwift27SynchronizedUnsubscribeTypeP"
+- "7RxSwift8VariableC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "13f114c7e444800030cb48cc95019290"

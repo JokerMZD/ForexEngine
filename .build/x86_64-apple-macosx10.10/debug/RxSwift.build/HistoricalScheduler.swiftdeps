@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricalScheduler"
+provides-nominal:
+- "7RxSwift19HistoricalSchedulerC"
+provides-member:
+- ["7RxSwift19HistoricalSchedulerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Date"
+- "HistoricalScheduler"
+- "HistoricalSchedulerTimeConverter"
+- "RxTime"
+- !private "StringLiteralType"
+- "VirtualTimeScheduler"
+depends-member:
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "HistoricalSchedulerTimeConverter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["7RxSwift19HistoricalSchedulerC", "Date"]
+- !private ["7RxSwift19HistoricalSchedulerC", "HistoricalSchedulerTimeConverter"]
+- ["7RxSwift19HistoricalSchedulerC", "RxTime"]
+- ["7RxSwift19HistoricalSchedulerC", "deinit"]
+- ["7RxSwift19HistoricalSchedulerC", "init"]
+- ["7RxSwift32HistoricalSchedulerTimeConverterV", "deinit"]
+- !private ["7RxSwift32HistoricalSchedulerTimeConverterV", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "Date"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "HistoricalSchedulerTimeConverter"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "Date"]
+- !private ["7RxSwift13SchedulerTypeP", "HistoricalSchedulerTimeConverter"]
+- !private ["7RxSwift13SchedulerTypeP", "init"]
+- ["7RxSwift13SchedulerTypeP", ""]
+- !private ["s12StaticStringV", "init"]
+- !private ["7RxSwift24VirtualTimeConverterTypeP", "init"]
+- !private ["7RxSwift20VirtualTimeSchedulerC", "Date"]
+- !private ["7RxSwift20VirtualTimeSchedulerC", "HistoricalSchedulerTimeConverter"]
+- ["7RxSwift20VirtualTimeSchedulerC", "RxTime"]
+- ["7RxSwift20VirtualTimeSchedulerC", "init"]
+- ["7RxSwift20VirtualTimeSchedulerC", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- "7RxSwift19HistoricalSchedulerC"
+- "7RxSwift32HistoricalSchedulerTimeConverterV"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "7RxSwift13SchedulerTypeP"
+- !private "s12StaticStringV"
+- !private "7RxSwift24VirtualTimeConverterTypeP"
+- "7RxSwift20VirtualTimeSchedulerC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f3ad5cd16f68961b0e0b700143fda4da"

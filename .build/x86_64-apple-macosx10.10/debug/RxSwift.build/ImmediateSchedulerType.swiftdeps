@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImmediateSchedulerType"
+provides-nominal:
+- "7RxSwift22ImmediateSchedulerTypeP"
+provides-member:
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- ["7RxSwift22ImmediateSchedulerTypeP", "scheduleRecursive"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- !private "Disposables"
+- "ImmediateSchedulerType"
+- !private "RecursiveImmediateScheduler"
+depends-member:
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "Disposable"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "Disposables"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "RecursiveImmediateScheduler"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "schedule"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "scheduleRecursive"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "dispose"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "init"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "schedule"]
+depends-nominal:
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxSwift27RecursiveImmediateSchedulerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8dcf4a7f627bef6c016a55b7ff7a67b0"
