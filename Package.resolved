@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CSwiftV",
+        "repositoryURL": "https://github.com/Daniel1of1/CSwiftV.git",
+        "state": {
+          "branch": null,
+          "revision": "a1a04d3915028c03884df4ed53757c7480233b68",
+          "version": "0.0.7"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "12cccb171ad9038251af6883807f0290c1d75a5b",
+          "version": "4.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
