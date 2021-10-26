@@ -1,3 +1,3 @@
-# ForexPackageManager
+# Forex + PackageManager
 
-A description of this package.
+Test task for ZoolaTech
